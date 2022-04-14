@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj": {}
+    "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj": {}
   },
   "projects": {
-    "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj": {
+    "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj",
+        "projectUniqueName": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj",
         "projectName": "PICalculator.Tests",
-        "projectPath": "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj",
+        "projectPath": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj",
         "packagesPath": "C:\\Users\\Oerk\\.nuget\\packages\\",
-        "outputPath": "F:\\Projekte\\PICalculator.Tests\\obj\\",
+        "outputPath": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oerk\\AppData\\Roaming\\NuGet\\NuGet.Config",

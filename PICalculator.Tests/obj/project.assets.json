@@ -1735,11 +1735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj",
+      "projectUniqueName": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj",
       "projectName": "PICalculator.Tests",
-      "projectPath": "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj",
+      "projectPath": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj",
       "packagesPath": "C:\\Users\\Oerk\\.nuget\\packages\\",
-      "outputPath": "F:\\Projekte\\PICalculator.Tests\\obj\\",
+      "outputPath": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oerk\\AppData\\Roaming\\NuGet\\NuGet.Config",

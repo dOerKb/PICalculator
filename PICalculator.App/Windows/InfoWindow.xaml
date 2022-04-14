@@ -1,0 +1,49 @@
+﻿<Window x:Class="PICalculator.App.Windows.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:behaviors="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:local="clr-namespace:PICalculator.App.Windows"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="InfoWindow"
+        Height="450"
+        Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <Label Content="Refer to the Github page for updates:"/>
+            <Label>
+                <Hyperlink NavigateUri="https://github.com/dOerKb/PICalculator"
+                           Command="{Binding NavigateCommand}"
+                           CommandParameter="https://github.com/dOerKb/PICalculator">
+                    github.com
+                </Hyperlink>
+            </Label>
+        </StackPanel>
+
+        <Button Grid.Row="2"
+                Content="OK"
+                Command="{Binding LoginCommand}">
+            <behaviors:Interaction.Triggers>
+                <behaviors:EventTrigger EventName="Click">
+                    <behaviors:CallMethodAction MethodName="Close"
+                                                TargetObject="{Binding RelativeSource={RelativeSource
+                                                                       Mode=FindAncestor,
+                                                                       AncestorType=Window}}" />
+                </behaviors:EventTrigger>
+            </behaviors:Interaction.Triggers>
+        </Button>
+
+    </Grid>
+</Window>
