@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OilDtEvzL0cv05CuNLkTH+xr8IzFIaRsw9S8Oxh8CWhn1arllhdwPlPr6lbUGaS0KluoVDYHPuOB0m24Q0WObw==",
+  "dgSpecHash": "2oWMwwHA/i/4Sf+BG09xHtIHADHEtz2yyTrs804EnX/1wPzLf/LnOuKsboLeTIMvHW/dLP8ffUHPdSUeXb63sA==",
   "success": true,
-  "projectFilePath": "F:\\Projekte\\PICalculator.Tests\\PICalculator.Tests.csproj",
+  "projectFilePath": "F:\\Projekte\\PICalculator\\PICalculator.Tests\\PICalculator.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oerk\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\Oerk\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",

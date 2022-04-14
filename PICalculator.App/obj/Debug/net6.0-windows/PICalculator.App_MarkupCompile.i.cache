@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Projekte\PICalculator.App\obj\Debug\net6.0-windows\
+F:\Projekte\PICalculator\PICalculator.App\obj\Debug\net6.0-windows\
 PICalculator.App
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-F:\Projekte\PICalculator.App\App.xaml
-11407045341
+F:\Projekte\PICalculator\PICalculator.App\App.xaml
+21775628162
 
-5-1052762208
-194-1951243044
-MainWindow.xaml;
+11-1591734917
+198883539199
+MainWindow.xaml;Windows\InfoWindow.xaml;
 
-False
+True
 

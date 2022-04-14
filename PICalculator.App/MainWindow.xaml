@@ -4,9 +4,138 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PICalculator.App"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        WindowStartupLocation="CenterScreen"
+        Height="450"
+        Width="800"        
+        >
     <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.Row="0"
+              Grid.Column="0"
+              Style="{DynamicResource MaterialDesignMenu}">
+            <MenuItem>
+                <MenuItem.Header>
+                    <materialDesign:PackIcon Kind="HamburgerMenu" />
+                </MenuItem.Header>
+
+                <MenuItem>
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Home" />
+                    </MenuItem.Icon>
+                    <MenuItem.Header >
+                        <TextBlock Text="Home" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <Separator Style="{DynamicResource MaterialDesignDarkSeparator}" />
+
+                <MenuItem Command="{Binding LoginCommand}">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Account" />
+                    </MenuItem.Icon>
+                    <MenuItem.Header >
+                        <TextBlock Text="Account" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem>
+                    <!--<MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Account" />
+                    </MenuItem.Icon>-->
+                    <MenuItem.Header >
+                        <TextBlock Text="Placeholder" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem>
+                    <!--<MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Account" />
+                    </MenuItem.Icon>-->
+                    <MenuItem.Header >
+                        <TextBlock Text="Placeholder" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem>
+                    <!--<MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Account" />
+                    </MenuItem.Icon>-->
+                    <MenuItem.Header >
+                        <TextBlock Text="Placeholder" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <Separator Style="{DynamicResource MaterialDesignDarkSeparator}" />
+
+                <MenuItem Command="{Binding ShowInfoCommand}">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="InfoCircleOutline" />
+                    </MenuItem.Icon>
+                    <MenuItem.Header >
+                        <TextBlock Text="Information" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <MenuItem>
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Cog" />
+                    </MenuItem.Icon>
+                    <MenuItem.Header >
+                        <TextBlock Text="Settings" />
+                    </MenuItem.Header>
+                </MenuItem>
+
+                <Separator Style="{DynamicResource MaterialDesignDarkSeparator}" />
+
+                <MenuItem Command="{Binding CloseAppCommand}">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Close" />
+                    </MenuItem.Icon>
+                    <MenuItem.Header >
+                        <TextBlock Text="Exit" />
+                    </MenuItem.Header>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <TextBlock Grid.Row="0"
+                   Grid.Column="1"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   Text="{Binding AccountName}"
+                   />
+
+        <Button Grid.Row="0"
+                Grid.Column="2"
+                Style="{DynamicResource MaterialDesignFloatingActionMiniAccentButton}"
+                HorizontalAlignment="Right"
+                Command="{Binding LoginCommand}"
+                CommandParameter="{Binding CharacterName}" >
+            <Button.Content>
+                <materialDesign:PackIcon Kind="Account" />
+            </Button.Content>
+        </Button>
 
     </Grid>
 </Window>
+
+    

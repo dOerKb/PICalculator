@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projekte\\PICalculator.Service\\PICalculator.Service.csproj",
+      "projectUniqueName": "F:\\Projekte\\PICalculator\\PICalculator.Service\\PICalculator.Service.csproj",
       "projectName": "PICalculator.Service",
-      "projectPath": "F:\\Projekte\\PICalculator.Service\\PICalculator.Service.csproj",
+      "projectPath": "F:\\Projekte\\PICalculator\\PICalculator.Service\\PICalculator.Service.csproj",
       "packagesPath": "C:\\Users\\Oerk\\.nuget\\packages\\",
-      "outputPath": "F:\\Projekte\\PICalculator.Service\\obj\\",
+      "outputPath": "F:\\Projekte\\PICalculator\\PICalculator.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oerk\\AppData\\Roaming\\NuGet\\NuGet.Config",

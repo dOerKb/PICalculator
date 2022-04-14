@@ -2384,11 +2384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projekte\\PICalculator.Data\\PICalculator.Data.csproj",
+      "projectUniqueName": "F:\\Projekte\\PICalculator\\PICalculator.Data\\PICalculator.Data.csproj",
       "projectName": "PICalculator.Data",
-      "projectPath": "F:\\Projekte\\PICalculator.Data\\PICalculator.Data.csproj",
+      "projectPath": "F:\\Projekte\\PICalculator\\PICalculator.Data\\PICalculator.Data.csproj",
       "packagesPath": "C:\\Users\\Oerk\\.nuget\\packages\\",
-      "outputPath": "F:\\Projekte\\PICalculator.Data\\obj\\",
+      "outputPath": "F:\\Projekte\\PICalculator\\PICalculator.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oerk\\AppData\\Roaming\\NuGet\\NuGet.Config",
