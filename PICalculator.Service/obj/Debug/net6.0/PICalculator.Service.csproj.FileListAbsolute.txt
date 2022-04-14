@@ -1,0 +1,12 @@
+F:\Projekte\PICalculator.Service\bin\Debug\net6.0\PICalculator.Service.deps.json
+F:\Projekte\PICalculator.Service\bin\Debug\net6.0\PICalculator.Service.dll
+F:\Projekte\PICalculator.Service\bin\Debug\net6.0\PICalculator.Service.pdb
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.csproj.AssemblyReference.cache
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.AssemblyInfoInputs.cache
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.AssemblyInfo.cs
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.csproj.CoreCompileInputs.cache
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.dll
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\refint\PICalculator.Service.dll
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\PICalculator.Service.pdb
+F:\Projekte\PICalculator.Service\obj\Debug\net6.0\ref\PICalculator.Service.dll
