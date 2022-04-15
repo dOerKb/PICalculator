@@ -5,11 +5,13 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PICalculator.App", "PICalculator.App\PICalculator.App.csproj", "{C64AD7AB-DED3-4CC5-8372-662D3058AC20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICalculator.Service", "PICalculator.Service\PICalculator.Service.csproj", "{2FFE04D2-C7DD-4412-A8C7-E7A8730F9995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PICalculator.Service", "PICalculator.Service\PICalculator.Service.csproj", "{2FFE04D2-C7DD-4412-A8C7-E7A8730F9995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICalculator.Data", "PICalculator.Data\PICalculator.Data.csproj", "{2C4EFE89-2AAC-411E-8785-95930F3F6BE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PICalculator.Data", "PICalculator.Data\PICalculator.Data.csproj", "{2C4EFE89-2AAC-411E-8785-95930F3F6BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICalculator.Tests", "PICalculator.Tests\PICalculator.Tests.csproj", "{5F6D3A0E-BD46-4203-82AF-6A8A78973270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PICalculator.Tests", "PICalculator.Tests\PICalculator.Tests.csproj", "{5F6D3A0E-BD46-4203-82AF-6A8A78973270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICalculator.Client", "PICalculator.Client\PICalculator.Client.csproj", "{AD88440C-3721-4F1C-8EF9-CB95EB0FC347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5F6D3A0E-BD46-4203-82AF-6A8A78973270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6D3A0E-BD46-4203-82AF-6A8A78973270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6D3A0E-BD46-4203-82AF-6A8A78973270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD88440C-3721-4F1C-8EF9-CB95EB0FC347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD88440C-3721-4F1C-8EF9-CB95EB0FC347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD88440C-3721-4F1C-8EF9-CB95EB0FC347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD88440C-3721-4F1C-8EF9-CB95EB0FC347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

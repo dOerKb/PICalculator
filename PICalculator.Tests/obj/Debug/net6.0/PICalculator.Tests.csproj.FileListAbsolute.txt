@@ -10,3 +10,15 @@ F:\Projekte\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.dll
 F:\Projekte\PICalculator.Tests\obj\Debug\net6.0\refint\PICalculator.Tests.dll
 F:\Projekte\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.pdb
 F:\Projekte\PICalculator.Tests\obj\Debug\net6.0\ref\PICalculator.Tests.dll
+F:\Projekte\PICalculator\PICalculator.Tests\bin\Debug\net6.0\PICalculator.Tests.deps.json
+F:\Projekte\PICalculator\PICalculator.Tests\bin\Debug\net6.0\PICalculator.Tests.dll
+F:\Projekte\PICalculator\PICalculator.Tests\bin\Debug\net6.0\PICalculator.Tests.pdb
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.csproj.AssemblyReference.cache
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.AssemblyInfoInputs.cache
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.AssemblyInfo.cs
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.csproj.CoreCompileInputs.cache
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.dll
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\refint\PICalculator.Tests.dll
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\PICalculator.Tests.pdb
+F:\Projekte\PICalculator\PICalculator.Tests\obj\Debug\net6.0\ref\PICalculator.Tests.dll
