@@ -1,7 +1,8 @@
 ﻿using PICalculator.App.Abstracts;
 using PICalculator.App.Windows;
+using PICalculator.Client;
+using PICalculator.Data;
 using System;
-using System.Windows;
 using System.Windows.Input;
 
 namespace PICalculator.App.ViewModels
@@ -14,8 +15,10 @@ namespace PICalculator.App.ViewModels
         private readonly DelegateCommand showInfoCommand;
 
         private readonly DelegateCommand closeAppCommand;
+        private readonly EsiClient esiClient;
 
-        private string accountName;
+        private string characterName;
+        private Character character;
 
         public MainWindowViewModel()
         {
@@ -24,18 +27,20 @@ namespace PICalculator.App.ViewModels
 
             this.closeAppCommand = new DelegateCommand(this.OnCloseApp, this.CanCloseApp);
 
-            this.accountName = DEFAULT_CHARACTER_NAME;
+            this.characterName = DEFAULT_CHARACTER_NAME;
+
+            this.esiClient = new EsiClient();
         }
 
-        public string AccountName
+        public string CharacterName
         {
             get
             {
-                return this.accountName;
+                return this.characterName;
             }
             set
             {
-                base.SetProperty(ref this.accountName, value);
+                base.SetProperty(ref this.characterName, value);
             }
         }
 
@@ -68,9 +73,10 @@ namespace PICalculator.App.ViewModels
             return true;
         }
 
-        private void OnLogin(object parameter)
+        private async void OnLogin(object parameter)
         {
-            MessageBox.Show("Work in progress");
+            this.character = await this.esiClient.Authenticate();
+            this.CharacterName = this.character.Name;
         }
 
         private bool CanShowInfo(object parameter)
