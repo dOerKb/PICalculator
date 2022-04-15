@@ -61,7 +61,7 @@ namespace PICalculator.App.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PICalculator.App;component/windows/infowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PICalculator.App;V1.0.0.0;component/windows/infowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\InfoWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

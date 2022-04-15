@@ -1,0 +1,14 @@
+F:\Projekte\PICalculator\PICalculator.Data\bin\Release\net6.0\PICalculator.Data.deps.json
+F:\Projekte\PICalculator\PICalculator.Data\bin\Release\net6.0\PICalculator.Data.runtimeconfig.json
+F:\Projekte\PICalculator\PICalculator.Data\bin\Release\net6.0\PICalculator.Data.dll
+F:\Projekte\PICalculator\PICalculator.Data\bin\Release\net6.0\PICalculator.Data.pdb
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.csproj.AssemblyReference.cache
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.AssemblyInfoInputs.cache
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.AssemblyInfo.cs
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.csproj.CoreCompileInputs.cache
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.dll
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\refint\PICalculator.Data.dll
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.pdb
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\PICalculator.Data.genruntimeconfig.cache
+F:\Projekte\PICalculator\PICalculator.Data\obj\Release\net6.0\ref\PICalculator.Data.dll

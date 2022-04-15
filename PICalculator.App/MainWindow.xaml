@@ -16,7 +16,7 @@
         Height="450"
         Width="800"        
         >
-    <Grid>
+    <Grid Margin="10">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -121,15 +121,14 @@
                    Grid.Column="1"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
-                   Text="{Binding AccountName}"
+                   Text="{Binding CharacterName}"
                    />
 
         <Button Grid.Row="0"
                 Grid.Column="2"
                 Style="{DynamicResource MaterialDesignFloatingActionMiniAccentButton}"
                 HorizontalAlignment="Right"
-                Command="{Binding LoginCommand}"
-                CommandParameter="{Binding CharacterName}" >
+                Command="{Binding LoginCommand}">
             <Button.Content>
                 <materialDesign:PackIcon Kind="Account" />
             </Button.Content>
